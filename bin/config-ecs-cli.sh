@@ -8,6 +8,7 @@ source ./bin/env.sh
 rm -rf ~/.ecs/config
 
 #Download the correct cli for your os
+echo "Downloading latest ecs-cli...password prompt is expected to write to /usr/local/bin..."
 if [ "$(uname)" == "Darwin" ]; then
   # Get the Mac binaries
   sudo curl -o /usr/local/bin/ecs-cli https://s3.amazonaws.com/amazon-ecs-cli/ecs-cli-darwin-amd64-latest
