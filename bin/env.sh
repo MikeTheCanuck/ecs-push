@@ -7,7 +7,7 @@ export ECS_CLUSTER_SIZE=2
 export ECS_INSTANCE_TYPE=t2.large
 export AWS_REGION=us-west-2
 export AWS_KEY_PAIR=dan-ecs-west
-export DOCKER_REPO=django-web
+export DOCKER_REPO=mikethecanuck
 export DOCKER_WEB_IMAGE=django-web
 echo "##############################"
 echo  Your Environment
