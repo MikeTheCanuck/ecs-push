@@ -10,7 +10,7 @@ export AWS_KEY_PAIR=MBP-2009
 export DOCKER_REPO=django-web
 export DOCKER_WEB_IMAGE=django-web
 echo "##############################"
-echo  Your Environement
+echo  Your Environment
 echo "##############################"
 echo ECS_CLUSTER: $ECS_CLUSTER
 echo ECS_PROJECT: $ECS_PROJECT
