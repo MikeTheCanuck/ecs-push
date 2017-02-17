@@ -7,7 +7,7 @@ services:
   web:
     image: "${DOCKER_REPO}/${DOCKER_WEB_IMAGE}"
     cpu_shares: 100
-    mem_limit: 524288000
+    mem_limit: 262144000
     command: /code/docker-entrypoint.sh
     ports:
       - "8000:8000"
