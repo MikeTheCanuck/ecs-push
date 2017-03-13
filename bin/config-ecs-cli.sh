@@ -20,8 +20,8 @@ sudo chmod +x /usr/local/bin/ecs-cli
 
 ecs-cli configure \
   --region $AWS_REGION \
-  --access-key $AWS_ACCESS_KEY \
-  --secret-key $AWS_SECRET_KEY  \
+  --access-key $AWS_ACCESS_KEY_ID \
+  --secret-key $AWS_SECRET_ACCESS_KEY  \
   --cluster $ECS_CLUSTER \
   --compose-project-name-prefix " " \
   --compose-service-name-prefix " " \
